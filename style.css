@@ -79,3 +79,18 @@ body{
     color: var(--gray);
     letter-spacing: 1px;
 }
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    margin: 20px 0;
+    color: var(--navy);
+}
+.attribution a{
+    color: blue;
+    text-decoration: none;
+}
+@media (max-width:375px){
+    .card{
+        width:90%;
+    }
+}
