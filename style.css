@@ -23,3 +23,37 @@ body{
     background-repeat: no-repeat;
     background-position: top -400px left -200px, bottom -500px right -200px;
 }
+.container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+.card-top{
+    background: url("images/bg-pattern-card.svg") no-repeat center/cover;
+    height: 140px;
+}
+.profile-img{
+    width:100px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -50px;
+}
+.card-body h1{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom:5px ;
+}
+.card-body span{
+    color:var(--gray);
+    font-weight: 400;
+    margin-left: 5px;
+}
