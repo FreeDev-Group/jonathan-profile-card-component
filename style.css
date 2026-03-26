@@ -76,7 +76,7 @@ body{
     font-weight: 700;
 }
 .card-footer p{
-    font-size: 12px;
+    font-size: 10px;
     color: var(--gray);
     letter-spacing: 1px;
 }
