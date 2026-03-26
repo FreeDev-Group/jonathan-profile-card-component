@@ -21,7 +21,8 @@ body{
     background-color: var(--blue);
     background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
-    background-position: top -400px left -200px, bottom -500px right -200px;
+    background-position:  calc(50% - 510px) calc(50% - 390px), calc(50% + 470px) calc(50% + 500px);
+
 }
 .container{
     flex: 1;
